@@ -31,6 +31,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *pressureLabel;
 @property (weak, nonatomic) IBOutlet UILabel *chanceOfRainLabel;
 @property (weak, nonatomic) IBOutlet UILabel *uvIndexLabel;
+@property (weak, nonatomic) IBOutlet UIToolbar *toolBar;
 
 @end
 

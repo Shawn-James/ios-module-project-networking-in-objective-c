@@ -9,6 +9,12 @@
 
 @interface LSISettingsTableVC ()
 
+// outlets
+//@property (weak, nonatomic) IBOutlet UILabel *dayOfWeekLabel;
+//@property (weak, nonatomic) IBOutlet UIImageView *weatherIcon;
+//@property (weak, nonatomic) IBOutlet UILabel *highTemperature;
+//@property (weak, nonatomic) IBOutlet UILabel *lowTemperature;
+
 @end
 
 @implementation LSISettingsTableVC

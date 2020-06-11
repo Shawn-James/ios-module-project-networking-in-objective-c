@@ -208,11 +208,7 @@
                                         <rect key="frame" x="0.0" y="451.5" width="414" height="44"/>
                                         <items>
                                             <barButtonItem style="plain" systemItem="flexibleSpace" id="lXO-9z-2uk"/>
-                                            <barButtonItem title="Settings" image="info.circle.fill" catalog="system" id="LZW-r1-drq" userLabel="Info">
-                                                <connections>
-                                                    <action selector="settingsButtonPresssed:" destination="BYZ-38-t0r" id="osd-iI-D7y"/>
-                                                </connections>
-                                            </barButtonItem>
+                                            <barButtonItem title="Settings" image="info.circle.fill" catalog="system" id="LZW-r1-drq" userLabel="Info"/>
                                         </items>
                                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </toolbar>
@@ -404,14 +400,12 @@
                     <connections>
                         <outlet property="chanceOfRainLabel" destination="ANw-Yr-7IB" id="t8y-YY-62e"/>
                         <outlet property="cityAndStateLabel" destination="569-T5-UQu" id="JwN-9Z-Nwi"/>
-                        <outlet property="cityLabel" destination="569-T5-UQu" id="mcW-Xf-Jqo"/>
                         <outlet property="feelsLikeLabel" destination="DhA-yo-gla" id="irF-Kf-koe"/>
                         <outlet property="humidityLabel" destination="WB0-T8-WPr" id="wuK-nA-oKN"/>
                         <outlet property="iconImageView" destination="XsN-Hb-8hL" id="TR9-gH-G7l"/>
                         <outlet property="pressureLabel" destination="NLf-Ww-UpD" id="vcG-1x-52k"/>
-                        <outlet property="summaryLabel" destination="tLi-X5-XVU" id="nrL-fn-3Jq"/>
                         <outlet property="temperatureLabel" destination="2M6-aE-obb" id="bqS-qb-mgI"/>
-                        <outlet property="toolBar" destination="DgQ-cg-MFT" id="9Ms-Mn-Y5m"/>
+                        <outlet property="toolBar" destination="DgQ-cg-MFT" id="Hh4-cY-5sk"/>
                         <outlet property="uvIndexLabel" destination="f0N-f9-vsL" id="b9U-Hs-Hsh"/>
                         <outlet property="weatherSummaryLabel" destination="tLi-X5-XVU" id="Qok-rm-HyH"/>
                         <outlet property="windLabel" destination="Jjs-kF-AhD" id="RMH-vl-Ub2"/>
@@ -518,9 +512,13 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="dayLabel" destination="0f4-dZ-xTy" id="3qe-B7-95x"/>
+                                    <outlet property="dayOfWeekLabel" destination="0f4-dZ-xTy" id="RYZ-l0-ArP"/>
+                                    <outlet property="highTemperature" destination="lNk-3B-6xh" id="Jqz-kh-4h8"/>
                                     <outlet property="highTemperatureLabel" destination="lNk-3B-6xh" id="DxG-uj-Scw"/>
                                     <outlet property="iconImageView" destination="4Zo-xl-puR" id="FJ8-5Q-Uv9"/>
+                                    <outlet property="lowTemperature" destination="i0v-nj-zZB" id="efu-Sq-Wtr"/>
                                     <outlet property="lowTemperatureLabel" destination="i0v-nj-zZB" id="XLG-qX-7eg"/>
+                                    <outlet property="weatherIcon" destination="4Zo-xl-puR" id="H6I-W8-3UV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
