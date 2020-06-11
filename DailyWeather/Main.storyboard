@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G9c-ag-uPg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-406" y="164"/>
+            <point key="canvasLocation" x="-714" y="181"/>
         </scene>
         <!--Weather View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -402,11 +402,19 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="chanceOfRainLabel" destination="ANw-Yr-7IB" id="t8y-YY-62e"/>
+                        <outlet property="cityAndStateLabel" destination="569-T5-UQu" id="JwN-9Z-Nwi"/>
                         <outlet property="cityLabel" destination="569-T5-UQu" id="mcW-Xf-Jqo"/>
-                        <outlet property="iconImageView" destination="XsN-Hb-8hL" id="rmZ-7F-sYM"/>
+                        <outlet property="feelsLikeLabel" destination="DhA-yo-gla" id="irF-Kf-koe"/>
+                        <outlet property="humidityLabel" destination="WB0-T8-WPr" id="wuK-nA-oKN"/>
+                        <outlet property="iconImageView" destination="XsN-Hb-8hL" id="TR9-gH-G7l"/>
+                        <outlet property="pressureLabel" destination="NLf-Ww-UpD" id="vcG-1x-52k"/>
                         <outlet property="summaryLabel" destination="tLi-X5-XVU" id="nrL-fn-3Jq"/>
-                        <outlet property="temperatureLabel" destination="2M6-aE-obb" id="YZC-u9-OB0"/>
+                        <outlet property="temperatureLabel" destination="2M6-aE-obb" id="bqS-qb-mgI"/>
                         <outlet property="toolBar" destination="DgQ-cg-MFT" id="9Ms-Mn-Y5m"/>
+                        <outlet property="uvIndexLabel" destination="f0N-f9-vsL" id="b9U-Hs-Hsh"/>
+                        <outlet property="weatherSummaryLabel" destination="tLi-X5-XVU" id="Qok-rm-HyH"/>
+                        <outlet property="windLabel" destination="Jjs-kF-AhD" id="RMH-vl-Ub2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
